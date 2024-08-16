@@ -70,7 +70,7 @@ if __name__ == "__main__":
     parser.add_argument('--epoch',type=int,default=1)
     parser.add_argument('--batch_size', type=int, default=1)
     parser.add_argument('--device',type=str,default=None)
-    parser.add_argument('--model',type=str,default="model/model_g_3,1")
+    parser.add_argument('--model',type=str,default="encoder/gaussian_4000_100")
     parser.add_argument('--pretrained_model', type=str, default="plm/roberta-base")
     args, unparsed = parser.parse_known_args()
     main(args)
